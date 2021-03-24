@@ -1,0 +1,32 @@
+.iw_header {
+    display: flex;
+    height: 63px;
+    align-items: center;
+    text-align: center;
+    background: #1f2833;
+    font-size: 20px;
+}
+
+.iw_header__left,
+.iw_header__right {width: 25%;}
+.iw_header nav {width: 50%;}
+
+.iw_header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iw_header nav ul li a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.iw_header__right form input {
+    background: #0b0c10;
+    padding: 5px;
+    color: #f9f9f9;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}

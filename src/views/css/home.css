@@ -1,0 +1,46 @@
+.content {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.movies__api {
+    position: relative;
+}
+
+.movies__api-carousel {
+    display: flex;
+    overflow: hidden;
+    padding: 20px 0;
+    scroll-behavior: smooth;
+}
+
+.i__rows-properties {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: 0.3s;
+    z-index: 2000;
+}
+
+.i__rows-properties:hover {
+    background: #000000;
+    transition-property: background;
+    transition-duration: 0.3s;
+}
+
+.i__row-left {
+    left: 0;
+}
+
+.i__row-right {
+    right: 0
+}
+
