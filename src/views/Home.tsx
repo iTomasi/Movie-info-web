@@ -41,7 +41,7 @@ const Home = () => {
 
             return (
                 parseLocalStorageArray.map((movieFav: any) => (
-                    <FeatMovie id={movieFav.imdbID} img={movieFav.poster}/>
+                    <FeatMovie id={movieFav.imdbID} img={movieFav.poster} name={movieFav.title} year={movieFav.year} />
                 ))
             )
         }
@@ -61,7 +61,7 @@ const Home = () => {
 
                 <div className="movies__api-carousel" id="carousel-1">{
                     moviesList.map((movie: any) => (
-                        <FeatMovie img={movie.Poster} id={movie.imdbID} />
+                        <FeatMovie img={movie.Poster} id={movie.imdbID} name={movie.Title} year={movie.Year} />
                     ))
                 }</div>
 
