@@ -13,7 +13,7 @@ const MovieInfo = () => {
 
     const {id}: any = useParams();
     useEffect(() => {
-        fetch("http://www.omdbapi.com/?apikey=675192f0&i=" + id)
+        fetch(`http://www.omdbapi.com/?apikey=${process.env.REACT_APP_TOKEN_OMDB}&i=` + id)
             .then(res => res.json())
             .then(res => {
                 if (res.Response === "False") return console.log(res);
