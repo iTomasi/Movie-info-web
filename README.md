@@ -1,4 +1,4 @@
-![alt-text] (https://imgur.com/JHkVJlm)
+![alt text] (https://imgur.com/JHkVJlm)
 
 This project was made with OMDB API http://www.omdbapi.com
 
