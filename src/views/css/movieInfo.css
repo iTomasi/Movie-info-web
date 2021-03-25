@@ -1,0 +1,47 @@
+.movieInfo {
+    display: flex;
+    background: #1f2833;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+.movieInfo__img {
+    width: 30%;
+    position: relative;
+}
+
+.movieInfo__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.movieInfo__img i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #e74c3c;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.movieInfo__stats {
+    margin-left: 30px;
+    padding: 10px 0;
+    text-align: center;
+    width: 70%;
+}
+
+.movieInfo__stats-title {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.movieInfo__stats h3 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.i__star-full,
+.i__star-midle,
+.i__star-white {color: #f1c40f}
