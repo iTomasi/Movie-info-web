@@ -29,4 +29,24 @@
     font-size: 20px;
     border: none;
     outline: none;
+    width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .iw_header {
+        font-size: 18px;
+    }
+
+    .iw_header__left,
+    .iw_header__right {width: 35%}
+    .iw_header nav {width: 30%}
+
+    .iw_header__left {
+        font-size: 15px;
+    }
+
+    .iw_header__right form input {
+        font-size: 18px;
+    }
 }

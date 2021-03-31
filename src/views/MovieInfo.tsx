@@ -8,8 +8,8 @@ const MovieInfo = () => {
         Rating: []
     })
 
+    // eslint-disable-next-line 
     const [favoritesMovie, setFavoritesMovie] = useState<any>(localStorage.getItem("favMovie"))
-    const [addingFavorites, setAddingFavorites] = useState<string[]>([])
 
     const {id}: any = useParams();
     useEffect(() => {
@@ -50,6 +50,7 @@ const MovieInfo = () => {
                     Rating: movieStars
                 })
             })
+        // eslint-disable-next-line 
     }, [])
 
     const add_or_remove = (e: any) => {

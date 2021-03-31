@@ -11,3 +11,15 @@
     justify-content: center;
     margin: auto;
 }
+
+@media screen and (max-width: 990px) {
+    .filterMovies {
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .filterMovies {
+        grid-template-columns: 300px;
+    }
+}

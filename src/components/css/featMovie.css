@@ -30,3 +30,15 @@
     transition-duration: 0.3s;
     z-index: 1000
 }
+
+@media screen and (max-width: 770px) {
+    .card__info {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .card__info {
+        font-size: 10px;
+    }
+}

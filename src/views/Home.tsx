@@ -5,6 +5,7 @@ import "./css/home.css";
 const Home = () => {
 
     const [moviesList, setMoviesList] = useState<string[]>([]);
+    // eslint-disable-next-line 
     const [favoritesList, setFavoritesList] = useState<any>(localStorage.getItem("favMovie"));
 
     useEffect(() => {

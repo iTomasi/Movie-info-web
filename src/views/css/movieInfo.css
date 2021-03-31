@@ -45,3 +45,22 @@
 .i__star-full,
 .i__star-midle,
 .i__star-white {color: #f1c40f}
+
+@media screen and (max-width: 1060px) {
+    .movieInfo {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .movieInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movieInfo__img {
+        background: red;
+        height: 400px;
+        width: 200px;
+    }
+}

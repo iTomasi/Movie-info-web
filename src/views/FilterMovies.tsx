@@ -22,6 +22,7 @@ const FilterMovies = () => {
                     {...prevMovie, response: true, totalFound: res.Search.length, datas: res.Search}
                 ))
             })
+        // eslint-disable-next-line 
     }, [])
 
     return (
