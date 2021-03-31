@@ -9,7 +9,7 @@ const Home = () => {
     const [favoritesList, setFavoritesList] = useState<any>(localStorage.getItem("favMovie"));
 
     useEffect(() => {
-        fetch(`http://www.omdbapi.com/?&apikey=${process.env.REACT_APP_TOKEN_OMDB}&s=furious`)
+        fetch(`https://www.omdbapi.com/?&apikey=${process.env.REACT_APP_TOKEN_OMDB}&s=furious`)
             .then(res => res.json())
             .then(res => {
                 setMoviesList(res.Search)

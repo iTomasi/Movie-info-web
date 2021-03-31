@@ -13,7 +13,7 @@ const FilterMovies = () => {
     })
 
     useEffect(() => {
-        fetch("http://www.omdbapi.com/?&apikey=675192f0&s=" + movie)
+        fetch(`https://www.omdbapi.com/?&apikey=${process.env.REACT_APP_TOKEN_OMDB}&s=` + movie)
             .then(res => res.json())
             .then(res => {
                 if (res.Response !== "True") return console.log(res)
